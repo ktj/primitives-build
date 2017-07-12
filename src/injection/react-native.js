@@ -1,5 +1,6 @@
 const ReactPrimitives = require('../ReactPrimitives');
-const TouchableMixin = require('../web/Touchable/TouchableMixin');
+
+const { Touchable } = require('react-native');
 
 const {
   Animated,
@@ -24,5 +25,5 @@ ReactPrimitives.inject({
     Version: Platform.Version,
   },
   Dimensions,
-  Touchable: require('../modules/Touchable')(Animated, StyleSheet, Platform, TouchableMixin),
+  Touchable: require('../modules/Touchable')(Animated, StyleSheet, Platform, Touchable.Mixin),
 });
