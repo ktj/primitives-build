@@ -72,7 +72,7 @@
     "webpack": "^1.14.0"
   },
   "dependencies": {
-    "animated": "^0.1.5",
+    "animated": "^0.2.0",
     "asap": "^2.0.5",
     "deline": "^1.0.4",
     "flexibility": "^2.0.1",
